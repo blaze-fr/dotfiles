@@ -1,0 +1,52 @@
+position = "Bottom"
+enable_esc_key = true
+
+[modules]
+left = ["yowhat", ["Workspaces", "MediaPlayer"] ]
+center = [ "WindowTitle" ]
+right = [[ "Clock", "Tray", "Settings" ] ]
+
+[settings]
+# Customize which indicators to show and their order
+indicators = ["Bluetooth", "Network", "Audio"]
+
+[[CustomModule]]
+name = "yowhat"
+icon = "󱗼"
+command = "wofi -n --show drun --location 1"
+
+[workspaces]
+workspace_names = ["","","","","","","","","","",]
+enable_workspace_filling = true
+
+[media_player]
+max_title_length = 30
+
+[appearance]
+style = "Solid"
+font_name = "Noto Sans Mono"
+scale_factor = 1.2
+success_color = "#a6e3a1"
+text_color = "#cdd6f4"
+
+workspace_colors = [ "#ca9ee6", "#b4befe", "#cba6f7" ]
+
+[appearance.primary_color]
+base = "#ca9ee6"
+text = "#1e1e2e"
+
+[appearance.danger_color]
+base = "#f38ba8"
+weak = "#f9e2af"
+
+[appearance.background_color]
+base = "#11111b"
+weak = "#313244"
+strong = "#45475a"
+
+[appearance.secondary_color]
+base = "#313244"
+strong = "#1b1b25"
+
+[appearance.menu]
+opacity = 0.8
