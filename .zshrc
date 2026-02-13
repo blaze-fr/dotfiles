@@ -149,7 +149,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
- alias zshconfig="nvim ~/.zshrc"
+alias zshconfig="nvim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls --color=auto -a'
 alias grep='grep --color=auto'
