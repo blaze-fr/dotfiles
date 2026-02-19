@@ -1,0 +1,28 @@
+[global]
+frame_color = "#89b4fa"
+frame_width = 1
+separator_color= frame
+highlight = "#89b4fa"
+font = "SF Pro Text 14"
+icon_position = left
+min_icon_size = 54
+max_icon_size = 80
+width = 350
+height = (0, 300)
+origin = top-right
+offset = (35, 35)
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+timeout = 3
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+timeout = 8
+
+[urgency_critical]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"
